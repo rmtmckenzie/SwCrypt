@@ -8,5 +8,5 @@ Pod::Spec.new do |spec|
   spec.platform = :ios, "10.0"
   spec.requires_arc = true
   spec.source = { git: "https://github.com/rmtmckenzie/SwiftJose.git", branch: "podspecrmtmckenzie", submodules: true }
-  spec.source_files = "SwCrypt/**/*.{h, swift}"
+  spec.source_files = "SwCrypt/**/*.{h,swift}"
 end
